@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TCL Flip Cases</title>
+<style>
+body{margin:0;background:#f8f2ee;font-family:Georgia,serif;color:#4f403c;}
+.hero{padding:90px 20px;text-align:center;background:linear-gradient(#faf7f5,#f2e7e1);}
+h1{font-size:4rem;color:#d2a095;margin:0;}
+.tag{font-size:1.2rem;max-width:700px;margin:20px auto;}
+.price{font-size:3rem;color:#c78d81;font-weight:bold;}
+.wrap{max-width:1200px;margin:auto;padding:60px 20px;}
+form{background:white;padding:30px;border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.08);}
+input,textarea,select{width:100%;padding:12px;margin:8px 0 16px;border:1px solid #ddd;border-radius:12px;box-sizing:border-box;}
+button{background:#c78d81;color:white;border:none;padding:14px 24px;border-radius:999px;}
+</style>
+</head>
+<body>
+<section class="hero">
+<h1>TCL Flip Cases</h1>
+<p class="tag">Cases designed exclusively for TCL Flip Phones. Stylish, unique, and made to give your phone a beautiful new look.</p>
+<div class="price">$16 Per Case</div>
+<p class="tag">✨ Includes complimentary screen savers with every order. Custom screen savers available upon request.</p>
+</section>
+
+<div class="wrap">
+<h2>Order Request</h2>
+<form action="mailto:tclflipcases@gmail.com" method="post" enctype="text/plain">
+<input name="Name" placeholder="Your Name" required>
+<input name="Email" type="email" placeholder="Your Email" required>
+<select name="Design">
+<option>Pink Hearts</option>
+<option>Red Stars</option>
+<option>Leopard</option>
+<option>Cherries & Bows</option>
+<option>Retro Floral</option>
+</select>
+<input name="Quantity" type="number" value="1" min="1">
+<textarea name="Notes" placeholder="Questions or custom requests"></textarea>
+<button type="submit">Send Order Request</button>
+</form>
+</div>
+</body>
+</html>
